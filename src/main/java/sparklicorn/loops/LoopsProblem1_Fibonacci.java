@@ -1,6 +1,6 @@
 package sparklicorn.loops;
 
-public class Fibonacci {
+public class LoopsProblem1_Fibonacci {
 
 	/**
 	 * Returns the specified number in the fibonacci sequence.
