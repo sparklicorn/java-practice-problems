@@ -9,6 +9,7 @@ public class Fibonacci {
 	 * <br/><code>1, 1, 2, 3, 5, 8, 13, 21,...</code>
 	 * @param n The index of the fibonacci number to find.
 	 * @return The nth number in the fibonacci sequence.
+	 * @throws IllegalArgumentException if input is negative.
 	 */
 	public static long fib(int n) {
 		//TODO

@@ -7,7 +7,7 @@ import org.junit.Test;
 public class FibonacciTest {
     
     @Test
-    public void testFib() {
+    public void fib_success() {
         long[] fibSequence = new long[] { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 };
         for (int i = 0; i < fibSequence.length; i++) {
             long result = Fibonacci.fib(i);
@@ -17,5 +17,10 @@ public class FibonacciTest {
                 result
             );
         }
+    }
+    
+    @Test(expected=IllegalArgumentException.class)
+    public void fib_whenInputIsNegative_ThrowsIllegalArgumentException() {
+    	Fibonacci.fib(-1);
     }
 }
