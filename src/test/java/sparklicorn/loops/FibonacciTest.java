@@ -1,0 +1,21 @@
+package sparklicorn.loops;
+
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+public class FibonacciTest {
+    
+    @Test
+    public void testFib() {
+        long[] fibSequence = new long[] { 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89 };
+        for (int i = 0; i < fibSequence.length; i++) {
+            long result = Fibonacci.fib(i);
+            assertEquals(
+                "fib(" + i + ")",
+                fibSequence[i],
+                result
+            );
+        }
+    }
+}
