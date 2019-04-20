@@ -11,8 +11,17 @@ public class ArraysProblem2_MinAndMax {
 	 * @throws IllegalArgumentException if the list is empty or null.
 	 */
 	public static int[] findMinAndMax(int[] list) {
-		//TODO
+		if (list == null || list.length == 0)
+			throw new IllegalArgumentException();
+		
+		int min = list[0], max = min;
+		for (int e : list) {
+			if (e < min)
+				min = e;
+			if (e > max)
+				max = e;
+		}
 
-		return null;
+		return new int[] { min, max };
 	}
 }

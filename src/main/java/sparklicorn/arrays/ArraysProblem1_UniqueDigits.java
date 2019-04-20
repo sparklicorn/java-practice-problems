@@ -13,8 +13,20 @@ public class ArraysProblem1_UniqueDigits {
 	 * @throws NullPointerException if arr is null.
 	 */
 	public static boolean hasUniqueDigits(int[] arr) {
-		//TODO
+		if (arr.length == 0)
+			return true;
+		if (arr.length > 9)
+			return false;
 		
-		return false;
+		boolean[] digitTracker = new boolean[10];
+		for (int n : arr) {
+			if (n < 1 || n > 9 || digitTracker[n]) {
+				return false;
+			} else {
+				digitTracker[n] = true;
+			}
+		}
+		
+		return true;
 	}
 }

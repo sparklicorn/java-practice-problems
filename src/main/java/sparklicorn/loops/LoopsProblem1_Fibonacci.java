@@ -12,9 +12,22 @@ public class LoopsProblem1_Fibonacci {
 	 * @throws IllegalArgumentException if input is negative.
 	 */
 	public static long fib(int n) {
-		//TODO
+		if (n < 0)
+			throw new IllegalArgumentException();
+		
+		if (n == 0)
+			return 0L;
+		
+		long a = 0;
+		long b = 0;
+		long current = 1;
+		for (int i = 1; i < n; i++) {
+			a = b;
+			b = current;
+			current = a + b;
+		}
 
-		return 0L;
+		return current;
 	}
 
 }
