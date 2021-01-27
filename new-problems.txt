@@ -1,0 +1,37 @@
+
+Sudoku          		Given int[9][9], check if a Sudoku configuration
+Permutations            Create all permutations of the list [1, 2, 3, 4, 5, 6, 7, 8, 9]
+Sudoku                  Solve Sudoku puzzles
+Graph                   Find a path through a maze
+Graph                   Find the shortest path through a maze
+Tetris                  Given int[20][10], returns an array containing the indices of full rows
+Sudoku                  Generate a Sudoku configuration
+Data Structures         Given a Node class, create a linked list with the specified operations:
+						add(T element)          : boolean
+						remove()                : T
+						isEmpty()               : boolean
+						size()                  : int
+						clear()                 : void
+						get()                   : T
+						remove(T element)       : boolean
+						contains(T element)     : boolean
+Data Structures         Given a Node class, create a Stack
+Data Structures         Given a Node class, create a Queue
+Sorting                 Implement a sorting algorithm to sort a given list
+Search                  Implement a search algorithm to search for a specific element in a given list
+Strings                 Check if a String is a palindrome
+Strings                 Reverse a given String
+Strings                 In a given String, count the occurrences of a specific letter
+Geometry                Calculate the distance between two points with double precision
+Geometry                Determine if a point is within a circle
+Geometry                Determine if a point is on a line
+Geometry                Determine if a point is on a line segment
+Geometry                Determine if a point is within a rectangle
+Geometry                Determine if a point is within a triangle
+Geometry                Determine if two lines intersect
+Geometry                Determine if two line segments intersect
+Geometry                Determine if two circles intersect
+Game of Life            Given an int[16][16] universe for the Game of Life, calculate the next generation
+Game of Life            Given an int[n][n] universe for the Game of Life, calculate the i'th generation
+Arrays                  Find the minimum and maximum values in an array
+General                 Determine if a given integer is prime.
