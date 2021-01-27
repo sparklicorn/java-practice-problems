@@ -1,4 +1,4 @@
-# practice-problems
+# java-practice-problems
 Programming challenges for beginner programmers.
 
 ### How to use
@@ -9,9 +9,9 @@ Programming challenges for beginner programmers.
 
 ### Index
 - General
-  - ![(code)](https://github.com/sparklicorn/practice-problems/blob/master/src/main/java/sparklicorn/general/GeneralProblem1_PrimeNumbers.java) Check if a number is prime.
+  - ![(code)](https://github.com/sparklicorn/java-practice-problems/blob/master/src/main/java/sparklicorn/general/GeneralProblem1_PrimeNumbers.java) Check if a number is prime.
 - Loops
-  - ![(code)](https://github.com/sparklicorn/practice-problems/blob/master/src/main/java/sparklicorn/loops/LoopsProblem1_Fibonacci.java) Get the nth Fibonacci number.
+  - ![(code)](https://github.com/sparklicorn/java-practice-problems/blob/master/src/main/java/sparklicorn/loops/LoopsProblem1_Fibonacci.java) Get the nth number of the Fibonacci sequence.
 - Arrays
-  - ![(code)](https://github.com/sparklicorn/practice-problems/blob/master/src/main/java/sparklicorn/arrays/ArraysProblem1_UniqueDigits.java) Check if a fixed-length array contains only digits.
-  - ![(code)](https://github.com/sparklicorn/practice-problems/blob/master/src/main/java/sparklicorn/arrays/ArraysProblem2_MinAndMax.java) Get the minimum and maximum values in an array.
+  - ![(code)](https://github.com/sparklicorn/java-practice-problems/blob/master/src/main/java/sparklicorn/arrays/ArraysProblem1_UniqueDigits.java) Check whether an array contains the digits 1 through 9 with no duplicates.
+  - ![(code)](https://github.com/sparklicorn/java-practice-problems/blob/master/src/main/java/sparklicorn/arrays/ArraysProblem2_MinAndMax.java) Get the minimum and maximum values in an array.
