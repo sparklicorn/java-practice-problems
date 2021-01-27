@@ -13,7 +13,6 @@ public class LoopsProblem1_Fibonacci {
 	 */
 	public static long fib(int n) {
 		//TODO
-
 		return 0L;
 	}
 

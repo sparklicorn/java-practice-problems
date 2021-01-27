@@ -12,7 +12,6 @@ public class ArraysProblem2_MinAndMax {
 	 */
 	public static int[] findMinAndMax(int[] list) {
 		//TODO
-
 		return null;
 	}
 }

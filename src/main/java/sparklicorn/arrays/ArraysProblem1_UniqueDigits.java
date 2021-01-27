@@ -14,7 +14,6 @@ public class ArraysProblem1_UniqueDigits {
 	 */
 	public static boolean hasUniqueDigits(int[] arr) {
 		//TODO
-		
 		return false;
 	}
 }

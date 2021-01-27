@@ -10,7 +10,6 @@ public class GeneralProblem1_PrimeNumbers {
 	 */
 	public static boolean isPrime(int n) {
 		//TODO
-
 		return false;
 	}
 }
