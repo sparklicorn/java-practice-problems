@@ -6,6 +6,8 @@ Programming challenges for beginner programmers.
 - Find an interesting problem to solve. See the list below.
 - Implement your solutions in the provided method stubs.
 - Run the provided JUnit tests to check your solutions.
+  - You can use your IDE testing tools or ![Maven](https://maven.apache.org/) for this. There is a Maven wrapper script included in this repo for convenience.
+  - `./mvnw test`
 
 ### Index
 - General
