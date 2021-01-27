@@ -9,8 +9,25 @@ public class GeneralProblem1_PrimeNumbers {
 	 * @return True if n is a prime number; otherwise false.
 	 */
 	public static boolean isPrime(int n) {
-		//TODO
+		if (n < 2) {
+			return false;
+		}
 
-		return false;
+		if (n == 2) {
+			return true;
+		}
+
+		if (n % 2 == 0) {
+			return false;
+		}
+
+		int sqrt = (int) Math.ceil(Math.sqrt(n)) + 1;
+		for (int x = 3; x < sqrt; x+=2) {
+			if (n % x == 0) {
+				return false;
+			}
+		}
+
+		return true;
 	}
 }
