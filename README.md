@@ -8,6 +8,8 @@ Programming challenges for beginner programmers.
 - Run the provided JUnit tests to check your solutions.
   - You can use your IDE testing tools or ![Maven](https://maven.apache.org/) for this. There is a Maven wrapper script included in this repo for convenience.
   - `./mvnw test`
+  - Or to run a single test file `mvn test -Dtest=classname`, e.g. `mvn test -Dtest=SudokuProblem1Test`
+  - Or to run a single test method `mvn test -Dtest=classname#methodname`, e.g.`mvn test -Dtest=SudokuProblem1Test#isRowValid`
 
 ### Index
 - General
