@@ -17,7 +17,7 @@ Programming challenges for beginner programmers.
 - Arrays
   - ![(code)](https://github.com/sparklicorn/java-practice-problems/blob/master/src/main/java/sparklicorn/arrays/ArraysProblem1_UniqueDigits.java) Check whether an array contains the digits 1 through 9 with no duplicates.
   - ![(code)](https://github.com/sparklicorn/java-practice-problems/blob/master/src/main/java/sparklicorn/arrays/ArraysProblem2_MinAndMax.java) Get the minimum and maximum values in an array.
-- Sudoku ![(code)](https://github.com/sparklicorn/java-practice-problems/blob/master/src/main/java/sparklicorn/sudoku/SudokuProblems) - (Loops and array heavy)
+- Sudoku ![(code)](https://github.com/sparklicorn/java-practice-problems/blob/master/src/main/java/sparklicorn/sudoku/SudokuProblems.java) - (Loops and array heavy)
   - Determine whether a row is valid.
   - Determine whether a column is valid.
   - Determine whether a region is valid.
